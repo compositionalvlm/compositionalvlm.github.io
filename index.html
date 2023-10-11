@@ -27,27 +27,52 @@
 </head>
 <body>
 
-<!-- 
-<nav class="navbar is-fixed-top is-transparent is-centered is-max-desktop">
-  <a class="navbar-item" href="index.html">
-    Home
-  </a>
-  <a class="navbar-item" href="index.html#about">
-    About
-  </a>
-  <a class="navbar-item" href="index.html#tasks">
-    Tasks
-  </a>
-  <a class="navbar-item" href="index.html#results">
-    Results
-  </a>
-  <a class="navbar-item" href="index.html#paper">
-    Paper
-  </a>
-  <a class="navbar-item" href="index.html#contact">
-    Contact
-  </a>
-</nav> -->
+<!-- Navigation bar. -->
+<nav class="navbar is-fixed-top is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://compositionalvlm.github.io">
+      <span style="font-weight:bolder; font-size: 22px; color: rgb(191, 91, 108);">Compositional VLM</span>
+    </a>
+  </div>
+  <div id="navbarMenuHeroA" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="https://compositionalvlm.github.io/#abstract">
+        Abstract
+      </a>
+      <a class="navbar-item" href="https://compositionalvlm.github.io/#method">
+        Method
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Showcases
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Human-object Interaction Detection
+          </a>
+          <a class="navbar-item">
+            Image Captioning
+          </a>
+          <a class="navbar-item">
+            Visual Question Answering
+          </a>
+          <div class="navbar-item">
+            Referring Expression Comprehension
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary is-outlined" href="https://huggingface.co/compositionalVLM/CompositionalVLM">
+            <strong>Huggingface Demo</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 
 <section class="hero">
   <div class="hero-body">
@@ -65,7 +90,7 @@
 
 
 
-<section class="section">
+<section class="section" id="abstract">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
@@ -82,7 +107,7 @@
   </div>
 </section>
 
-<div class="container is-fullhd">
+<div class="container is-fullhd" id="method">
   <hr class="solid">
   <div class="column is-full-width is-centered has-text-centered">
     <h2 class="title is-3">Method</h2>
